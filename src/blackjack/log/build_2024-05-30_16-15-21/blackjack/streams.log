@@ -1,0 +1,28 @@
+[7.263s] Invoking command in '/home/mustache/ros2_ws/src/blackjack': PYTHONPATH=/home/mustache/ros2_ws/src/blackjack/build/blackjack/prefix_override:/home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/blackjack build --build-base /home/mustache/ros2_ws/src/blackjack/build/blackjack/build install --record /home/mustache/ros2_ws/src/blackjack/build/blackjack/install.log --single-version-externally-managed install_data
+[9.878s] running egg_info
+[9.885s] writing build/blackjack/blackjack.egg-info/PKG-INFO
+[9.892s] writing dependency_links to build/blackjack/blackjack.egg-info/dependency_links.txt
+[9.896s] writing entry points to build/blackjack/blackjack.egg-info/entry_points.txt
+[9.898s] writing requirements to build/blackjack/blackjack.egg-info/requires.txt
+[9.899s] writing top-level names to build/blackjack/blackjack.egg-info/top_level.txt
+[9.915s] reading manifest file 'build/blackjack/blackjack.egg-info/SOURCES.txt'
+[9.922s] writing manifest file 'build/blackjack/blackjack.egg-info/SOURCES.txt'
+[9.925s] running build
+[9.926s] running build_py
+[9.928s] copying blackjack/motor_control.py -> /home/mustache/ros2_ws/src/blackjack/build/blackjack/build/lib/blackjack
+[9.929s] copying blackjack/I2C_LCD_driver.py -> /home/mustache/ros2_ws/src/blackjack/build/blackjack/build/lib/blackjack
+[9.937s] running install
+[9.940s] running install_lib
+[9.948s] copying /home/mustache/ros2_ws/src/blackjack/build/blackjack/build/lib/blackjack/motor_control.py -> /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack
+[9.955s] copying /home/mustache/ros2_ws/src/blackjack/build/blackjack/build/lib/blackjack/I2C_LCD_driver.py -> /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack
+[9.980s] byte-compiling /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py to motor_control.cpython-310.pyc
+[9.981s] byte-compiling /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack/I2C_LCD_driver.py to I2C_LCD_driver.cpython-310.pyc
+[9.994s] running install_data
+[9.998s] running install_egg_info
+[10.009s] removing '/home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info' (and everything under it)
+[10.014s] Copying build/blackjack/blackjack.egg-info to /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info
+[10.028s] running install_scripts
+[10.195s] Installing listener script to /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/blackjack
+[10.197s] Installing talker script to /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/blackjack
+[10.201s] writing list of installed files to '/home/mustache/ros2_ws/src/blackjack/build/blackjack/install.log'
+[10.441s] Invoked command in '/home/mustache/ros2_ws/src/blackjack' returned '0': PYTHONPATH=/home/mustache/ros2_ws/src/blackjack/build/blackjack/prefix_override:/home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/blackjack build --build-base /home/mustache/ros2_ws/src/blackjack/build/blackjack/build install --record /home/mustache/ros2_ws/src/blackjack/build/blackjack/install.log --single-version-externally-managed install_data

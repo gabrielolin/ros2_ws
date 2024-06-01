@@ -1,0 +1,5 @@
+  File "/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py", line 28
+    if count >= 10  && msg.data == "hit":
+                     ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,5 @@
+  File "/home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py", line 123
+    	        if player_locations[i-1]
+    	                                ^
+SyntaxError: expected ':'
+

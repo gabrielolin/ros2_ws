@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.004821] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.004997] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.005122] (blackjack) JobQueued: {'identifier': 'blackjack', 'dependencies': OrderedDict()}
+[0.005210] (blackjack) JobStarted: {'identifier': 'blackjack'}
+[0.096292] (-) TimerEvent: {}
+[0.197150] (-) TimerEvent: {}
+[0.298461] (-) TimerEvent: {}
+[0.401084] (-) TimerEvent: {}
+[0.503962] (-) TimerEvent: {}
+[0.605144] (-) TimerEvent: {}
+[0.706415] (-) TimerEvent: {}
+[0.807493] (-) TimerEvent: {}
+[0.908943] (-) TimerEvent: {}
+[1.013004] (-) TimerEvent: {}
+[1.113769] (-) TimerEvent: {}
+[1.215391] (-) TimerEvent: {}
+[1.318301] (-) TimerEvent: {}
+[1.419333] (-) TimerEvent: {}
+[1.520573] (-) TimerEvent: {}
+[1.624668] (-) TimerEvent: {}
+[1.725608] (-) TimerEvent: {}
+[1.826539] (-) TimerEvent: {}
+[1.927926] (-) TimerEvent: {}
+[2.028861] (-) TimerEvent: {}
+[2.130071] (-) TimerEvent: {}
+[2.232661] (-) TimerEvent: {}
+[2.333503] (-) TimerEvent: {}
+[2.434553] (-) TimerEvent: {}
+[2.536115] (-) TimerEvent: {}
+[2.638086] (-) TimerEvent: {}
+[2.740070] (-) TimerEvent: {}
+[2.842496] (-) TimerEvent: {}
+[2.943733] (-) TimerEvent: {}
+[3.046509] (-) TimerEvent: {}
+[3.147522] (-) TimerEvent: {}
+[3.249055] (-) TimerEvent: {}
+[3.351262] (-) TimerEvent: {}
+[3.452201] (-) TimerEvent: {}
+[3.553122] (-) TimerEvent: {}
+[3.654057] (-) TimerEvent: {}
+[3.755544] (-) TimerEvent: {}
+[3.856890] (-) TimerEvent: {}
+[3.958181] (-) TimerEvent: {}
+[4.059299] (-) TimerEvent: {}
+[4.160432] (-) TimerEvent: {}
+[4.261658] (-) TimerEvent: {}
+[4.362604] (-) TimerEvent: {}
+[4.463560] (-) TimerEvent: {}
+[4.564413] (-) TimerEvent: {}
+[4.665487] (-) TimerEvent: {}
+[4.766366] (-) TimerEvent: {}
+[4.867634] (-) TimerEvent: {}
+[4.968588] (-) TimerEvent: {}
+[5.069513] (-) TimerEvent: {}
+[5.170598] (-) TimerEvent: {}
+[5.272491] (-) TimerEvent: {}
+[5.373498] (-) TimerEvent: {}
+[5.474346] (-) TimerEvent: {}
+[5.575378] (-) TimerEvent: {}
+[5.677259] (-) TimerEvent: {}
+[5.781981] (-) TimerEvent: {}
+[5.884325] (-) TimerEvent: {}
+[5.924955] (blackjack) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/blackjack', 'build', '--build-base', '/home/mustache/ros2_ws/build/blackjack/build', 'install', '--record', '/home/mustache/ros2_ws/build/blackjack/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mustache/ros2_ws/src/blackjack', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mustache', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mustache/ros2_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mustache', 'OLDPWD': '/home/mustache', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1851', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mustache/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mustache', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mustache', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mustache/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mustache-desktop:@/tmp/.ICE-unix/1828,unix/mustache-desktop:/tmp/.ICE-unix/1828', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9ca3f07b_be35_4482_ae32_af39255e3c5d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NDXYN2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mustache/ros2_ws/install/turtlesim:/home/mustache/ros2_ws/install/py_pubsub:/home/mustache/ros2_ws/install/blackjack:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mustache/ros2_ws/build/blackjack', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mustache/ros2_ws/build/blackjack/prefix_override:/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages:/home/mustache/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/mustache/ros2_ws/install/project/lib/python3.10/site-packages:/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mustache/ros2_ws/install/turtlesim'}, 'shell': False}
+[5.985025] (-) TimerEvent: {}
+[6.089193] (-) TimerEvent: {}
+[6.190628] (-) TimerEvent: {}
+[6.292348] (-) TimerEvent: {}
+[6.393107] (-) TimerEvent: {}
+[6.494115] (-) TimerEvent: {}
+[6.595051] (-) TimerEvent: {}
+[6.696245] (-) TimerEvent: {}
+[6.797868] (-) TimerEvent: {}
+[6.898776] (-) TimerEvent: {}
+[6.999735] (-) TimerEvent: {}
+[7.100792] (-) TimerEvent: {}
+[7.203667] (-) TimerEvent: {}
+[7.307217] (-) TimerEvent: {}
+[7.408804] (-) TimerEvent: {}
+[7.512480] (-) TimerEvent: {}
+[7.613924] (-) TimerEvent: {}
+[7.715024] (-) TimerEvent: {}
+[7.815955] (-) TimerEvent: {}
+[7.917112] (-) TimerEvent: {}
+[8.018009] (-) TimerEvent: {}
+[8.119325] (-) TimerEvent: {}
+[8.220622] (-) TimerEvent: {}
+[8.321704] (-) TimerEvent: {}
+[8.422712] (-) TimerEvent: {}
+[8.487110] (blackjack) StdoutLine: {'line': b'running egg_info\n'}
+[8.491989] (blackjack) StdoutLine: {'line': b'writing ../../build/blackjack/blackjack.egg-info/PKG-INFO\n'}
+[8.496569] (blackjack) StdoutLine: {'line': b'writing dependency_links to ../../build/blackjack/blackjack.egg-info/dependency_links.txt\n'}
+[8.498817] (blackjack) StdoutLine: {'line': b'writing entry points to ../../build/blackjack/blackjack.egg-info/entry_points.txt\n'}
+[8.500754] (blackjack) StdoutLine: {'line': b'writing requirements to ../../build/blackjack/blackjack.egg-info/requires.txt\n'}
+[8.501768] (blackjack) StdoutLine: {'line': b'writing top-level names to ../../build/blackjack/blackjack.egg-info/top_level.txt\n'}
+[8.517745] (blackjack) StdoutLine: {'line': b"reading manifest file '../../build/blackjack/blackjack.egg-info/SOURCES.txt'\n"}
+[8.522973] (-) TimerEvent: {}
+[8.524242] (blackjack) StdoutLine: {'line': b"writing manifest file '../../build/blackjack/blackjack.egg-info/SOURCES.txt'\n"}
+[8.525276] (blackjack) StdoutLine: {'line': b'running build\n'}
+[8.525973] (blackjack) StdoutLine: {'line': b'running build_py\n'}
+[8.536439] (blackjack) StdoutLine: {'line': b'running install\n'}
+[8.538425] (blackjack) StdoutLine: {'line': b'running install_lib\n'}
+[8.572302] (blackjack) StdoutLine: {'line': b'running install_data\n'}
+[8.573583] (blackjack) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.586129] (blackjack) StdoutLine: {'line': b"removing '/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.592142] (blackjack) StdoutLine: {'line': b'Copying ../../build/blackjack/blackjack.egg-info to /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info\n'}
+[8.608172] (blackjack) StdoutLine: {'line': b'running install_scripts\n'}
+[8.623179] (-) TimerEvent: {}
+[8.724169] (-) TimerEvent: {}
+[8.745257] (blackjack) StdoutLine: {'line': b'Installing listener script to /home/mustache/ros2_ws/install/blackjack/lib/blackjack\n'}
+[8.746662] (blackjack) StdoutLine: {'line': b'Installing talker script to /home/mustache/ros2_ws/install/blackjack/lib/blackjack\n'}
+[8.750896] (blackjack) StdoutLine: {'line': b"writing list of installed files to '/home/mustache/ros2_ws/build/blackjack/install.log'\n"}
+[8.824606] (-) TimerEvent: {}
+[8.927288] (-) TimerEvent: {}
+[8.975735] (blackjack) CommandEnded: {'returncode': 0}
+[9.027592] (-) TimerEvent: {}
+[9.091278] (blackjack) JobEnded: {'identifier': 'blackjack', 'rc': 0}
+[9.099872] (-) EventReactorShutdown: {}

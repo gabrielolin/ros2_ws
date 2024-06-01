@@ -1,0 +1,5 @@
+  File "/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack/app_multithread.py", line 279
+    x, y, w, h = cv.boundingRect(landmark_array)model/keypoint_classifier
+                                                ^^^^^
+SyntaxError: invalid syntax
+

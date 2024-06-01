@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.001637] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002242] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002339] (blackjack) JobQueued: {'identifier': 'blackjack', 'dependencies': OrderedDict()}
+[0.002751] (blackjack) JobStarted: {'identifier': 'blackjack'}
+[0.098933] (-) TimerEvent: {}
+[0.199571] (-) TimerEvent: {}
+[0.300253] (-) TimerEvent: {}
+[0.400967] (-) TimerEvent: {}
+[0.501821] (-) TimerEvent: {}
+[0.602447] (-) TimerEvent: {}
+[0.703084] (-) TimerEvent: {}
+[0.803704] (-) TimerEvent: {}
+[0.904437] (-) TimerEvent: {}
+[1.005346] (-) TimerEvent: {}
+[1.106022] (-) TimerEvent: {}
+[1.206751] (-) TimerEvent: {}
+[1.307417] (-) TimerEvent: {}
+[1.408050] (-) TimerEvent: {}
+[1.508678] (-) TimerEvent: {}
+[1.609306] (-) TimerEvent: {}
+[1.709961] (-) TimerEvent: {}
+[1.810672] (-) TimerEvent: {}
+[1.911652] (-) TimerEvent: {}
+[2.012398] (-) TimerEvent: {}
+[2.113226] (-) TimerEvent: {}
+[2.214230] (-) TimerEvent: {}
+[2.237096] (blackjack) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/blackjack', 'build', '--build-base', '/home/mustache/ros2_ws/src/build/blackjack/build', 'install', '--record', '/home/mustache/ros2_ws/src/build/blackjack/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mustache/ros2_ws/src/blackjack', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOME': '/root', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9HKQO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build --packages-select blackjack', 'SHELL': '/bin/bash', 'SUDO_USER': 'mustache', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/mustache/ros2_ws/src/build/blackjack', 'COLCON': '1', 'PYTHONPATH': '/home/mustache/ros2_ws/src/build/blackjack/prefix_override:/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages:'}, 'shell': False}
+[2.314359] (-) TimerEvent: {}
+[2.415051] (-) TimerEvent: {}
+[2.515735] (-) TimerEvent: {}
+[2.616412] (-) TimerEvent: {}
+[2.717102] (-) TimerEvent: {}
+[2.817725] (-) TimerEvent: {}
+[2.918340] (-) TimerEvent: {}
+[3.018961] (-) TimerEvent: {}
+[3.090428] (blackjack) StdoutLine: {'line': b'running egg_info\n'}
+[3.092604] (blackjack) StdoutLine: {'line': b'writing ../build/blackjack/blackjack.egg-info/PKG-INFO\n'}
+[3.093717] (blackjack) StdoutLine: {'line': b'writing dependency_links to ../build/blackjack/blackjack.egg-info/dependency_links.txt\n'}
+[3.094707] (blackjack) StdoutLine: {'line': b'writing entry points to ../build/blackjack/blackjack.egg-info/entry_points.txt\n'}
+[3.095536] (blackjack) StdoutLine: {'line': b'writing requirements to ../build/blackjack/blackjack.egg-info/requires.txt\n'}
+[3.096180] (blackjack) StdoutLine: {'line': b'writing top-level names to ../build/blackjack/blackjack.egg-info/top_level.txt\n'}
+[3.104193] (blackjack) StdoutLine: {'line': b"reading manifest file '../build/blackjack/blackjack.egg-info/SOURCES.txt'\n"}
+[3.108148] (blackjack) StdoutLine: {'line': b"writing manifest file '../build/blackjack/blackjack.egg-info/SOURCES.txt'\n"}
+[3.108757] (blackjack) StdoutLine: {'line': b'running build\n'}
+[3.109246] (blackjack) StdoutLine: {'line': b'running build_py\n'}
+[3.109811] (blackjack) StdoutLine: {'line': b'copying blackjack/motor_control.py -> /home/mustache/ros2_ws/src/build/blackjack/build/lib/blackjack\n'}
+[3.113871] (blackjack) StdoutLine: {'line': b'running install\n'}
+[3.115101] (blackjack) StdoutLine: {'line': b'running install_lib\n'}
+[3.117867] (blackjack) StdoutLine: {'line': b'copying /home/mustache/ros2_ws/src/build/blackjack/build/lib/blackjack/motor_control.py -> /home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack\n'}
+[3.119074] (-) TimerEvent: {}
+[3.122255] (blackjack) StdoutLine: {'line': b'byte-compiling /home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py to motor_control.cpython-310.pyc\n'}
+[3.124296] (blackjack) StderrLine: {'line': b'  File "/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py", line 75\n'}
+[3.124848] (blackjack) StderrLine: {'line': b'    def check_for_player()\n'}
+[3.125229] (blackjack) StderrLine: {'line': b'                          ^\n'}
+[3.125677] (blackjack) StderrLine: {'line': b"SyntaxError: expected ':'\n"}
+[3.125958] (blackjack) StderrLine: {'line': b'\n'}
+[3.126339] (blackjack) StdoutLine: {'line': b'running install_data\n'}
+[3.126679] (blackjack) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.132907] (blackjack) StdoutLine: {'line': b"removing '/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.134600] (blackjack) StdoutLine: {'line': b'Copying ../build/blackjack/blackjack.egg-info to /home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info\n'}
+[3.139654] (blackjack) StdoutLine: {'line': b'running install_scripts\n'}
+[3.218999] (blackjack) StdoutLine: {'line': b'Installing listener script to /home/mustache/ros2_ws/src/install/blackjack/lib/blackjack\n'}
+[3.219503] (-) TimerEvent: {}
+[3.219956] (blackjack) StdoutLine: {'line': b'Installing talker script to /home/mustache/ros2_ws/src/install/blackjack/lib/blackjack\n'}
+[3.222610] (blackjack) StdoutLine: {'line': b"writing list of installed files to '/home/mustache/ros2_ws/src/build/blackjack/install.log'\n"}
+[3.319796] (-) TimerEvent: {}
+[3.343683] (blackjack) CommandEnded: {'returncode': 0}
+[3.392886] (blackjack) JobEnded: {'identifier': 'blackjack', 'rc': 0}
+[3.395726] (-) EventReactorShutdown: {}

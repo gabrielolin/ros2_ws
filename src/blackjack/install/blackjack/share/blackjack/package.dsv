@@ -1,0 +1,6 @@
+source;share/blackjack/hook/pythonpath.ps1
+source;share/blackjack/hook/pythonpath.dsv
+source;share/blackjack/hook/pythonpath.sh
+source;share/blackjack/hook/ament_prefix_path.ps1
+source;share/blackjack/hook/ament_prefix_path.dsv
+source;share/blackjack/hook/ament_prefix_path.sh

@@ -1,0 +1,4 @@
+[console_scripts]
+listener = blackjack.motor_control:main
+talker = blackjack.app_multithread:main
+

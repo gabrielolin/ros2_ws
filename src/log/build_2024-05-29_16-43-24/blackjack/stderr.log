@@ -1,0 +1,5 @@
+  File "/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py", line 58
+    else if location >= current_location and (location-current_location) >= 100:
+         ^^
+SyntaxError: expected ':'
+

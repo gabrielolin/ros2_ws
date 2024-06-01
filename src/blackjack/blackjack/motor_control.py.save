@@ -1,0 +1,123 @@
+#!/usr/bin/env python3
+# Below imports all neccessary packages to make this Python Script run
+import numpy as np
+
+import time
+import board
+from adafruit_motor import stepper
+from adafruit_motorkit import MotorKit
+
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+
+global gesture_last
+gesture_last = ""
+global count_gesture
+count = 0
+
+class MotorController(Node):
+    def __init__(self):
+        super().__init__('motor_controller')
+        self.subscription = self.create_subscription(String, 'my_turn', self.listener_callback, 10)
+        self.subscription
+
+    def listener_callback(self, msg):
+        global gesture_last
+        global count_gesture
+        if msg.data == gesture_last:
+            count_gesture+=1
+        else:
+            count_gesture = 0
+
+        gesture_last = msg.data
+        self.get_logger().info('I heard: "%s"' % msg.data)
+
+# Below initialises the variable kit to be our I2C Connected Adafruit Motor HAT. If stacking Multiple
+kit = MotorKit(i2c = board.I2C())
+
+# Initialize variables
+num_players = 0
+num_cards = 52
+game_over = 0
+
+
+# Functions
+def shoot_card():
+    time.sleep(1)
+    kit.motor1.throttle = -1
+    time.sleep(.15)
+    kit.motor1.throttle = 1
+    time.sleep(0.15)
+    kit.motor1.throttle = 0
+
+def next_player(num_players):
+    rotate(360/num_players, 50)
+
+def rotate(degrees, speed):
+    turn_size = int(1.6667*degrees)
+    for i in range(turn_size):
+        kit.stepper2.onestep()
+        time.sleep(1/(speed*10))
+
+def check_for_player()
+    count_hand = 0
+    for i in range(10):
+        rclpy.spin_once(motor_controller)
+        if gesture != "none":
+            count_hand+=1
+        else:
+            count_hand = 0
+        if count_hand == 3:
+            return true
+    return false
+
+def main():
+    # Show code is working
+    rotate(360, 50)
+
+    # Initialize variables
+    num_players = 0
+    player_locations = np.zeros(6, 1)
+
+    # Count players
+    rclpy.init()
+    motor_controller = MotorController()
+    for i in range(6):
+        if check_for_player:
+            num_players+=1
+            player_locations[i-1] = 1
+
+    #
+
+
+
+
+    while True:
+        rclpy.spin_once(motor_controller)
+        if count >= 5 and msg.data == "Hit":
+            shoot_card()
+        if count >= 5 and msg.data == "Stand":
+            next_player(8)
+
+if __name__ == '__main__':
+    main()
+
+
+# Get inputs from player
+#while(num_players <= 0 or num_players > 8):
+#	num_players = int(input("Enter number of players: "))
+#	if (num_players <= 0):
+#		print("Not enough players")
+#	if(num_players > 8):
+#		print("Too many players")
+
+
+# Start game
+while(game_over == 0):
+	for i in range(num_players):
+		shoot_card()
+		time.sleep(0.5)
+		next_player(num_players)
+		time.sleep(0.5)
+	game_over = 1

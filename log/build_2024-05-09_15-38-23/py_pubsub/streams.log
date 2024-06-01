@@ -1,0 +1,41 @@
+[4.017s] Invoking command in '/home/mustache/ros2_ws/src/py_pubsub': PYTHONPATH=/home/mustache/ros2_ws/build/py_pubsub/prefix_override:/home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/mustache/ros2_ws/build/py_pubsub/build install --record /home/mustache/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[5.258s] running egg_info
+[5.262s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[5.263s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[5.265s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[5.267s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[5.268s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[5.269s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[5.271s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.287s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.292s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.293s] running build
+[5.294s] running build_py
+[5.294s] creating /home/mustache/ros2_ws/build/py_pubsub/build
+[5.297s] creating /home/mustache/ros2_ws/build/py_pubsub/build/lib
+[5.297s] creating /home/mustache/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[5.298s] copying py_pubsub/publisher_member_function.py -> /home/mustache/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[5.299s] copying py_pubsub/subscriber_member_function.py -> /home/mustache/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[5.303s] copying py_pubsub/__init__.py -> /home/mustache/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[5.304s] running install
+[5.304s] running install_lib
+[5.308s] creating /home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.309s] copying /home/mustache/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.314s] copying /home/mustache/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.315s] copying /home/mustache/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.316s] byte-compiling /home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[5.321s] byte-compiling /home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[5.326s] byte-compiling /home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[5.329s] running install_data
+[5.331s] creating /home/mustache/ros2_ws/install/py_pubsub/share/ament_index
+[5.332s] creating /home/mustache/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[5.333s] creating /home/mustache/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[5.335s] copying resource/py_pubsub -> /home/mustache/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[5.336s] copying package.xml -> /home/mustache/ros2_ws/install/py_pubsub/share/py_pubsub
+[5.337s] running install_egg_info
+[5.352s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[5.361s] running install_scripts
+[5.505s] Installing listener script to /home/mustache/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.505s] Installing talker script to /home/mustache/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.507s] writing list of installed files to '/home/mustache/ros2_ws/build/py_pubsub/install.log'
+[5.629s] Invoked command in '/home/mustache/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/mustache/ros2_ws/build/py_pubsub/prefix_override:/home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/mustache/ros2_ws/build/py_pubsub/build install --record /home/mustache/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

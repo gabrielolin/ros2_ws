@@ -1,0 +1,40 @@
+[3.863s] Invoking command in '/home/mustache/ros2_ws/src/project': PYTHONPATH=/home/mustache/ros2_ws/build/project/prefix_override:/home/mustache/ros2_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/mustache/ros2_ws/build/project/build install --record /home/mustache/ros2_ws/build/project/install.log --single-version-externally-managed install_data
+[5.339s] running egg_info
+[5.342s] creating ../../build/project/project.egg-info
+[5.343s] writing ../../build/project/project.egg-info/PKG-INFO
+[5.345s] writing dependency_links to ../../build/project/project.egg-info/dependency_links.txt
+[5.345s] writing entry points to ../../build/project/project.egg-info/entry_points.txt
+[5.346s] writing requirements to ../../build/project/project.egg-info/requires.txt
+[5.347s] writing top-level names to ../../build/project/project.egg-info/top_level.txt
+[5.348s] writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[5.363s] reading manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[5.364s] adding license file 'LICENSE'
+[5.365s] writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[5.366s] running build
+[5.366s] running build_py
+[5.368s] creating /home/mustache/ros2_ws/build/project/build
+[5.369s] creating /home/mustache/ros2_ws/build/project/build/lib
+[5.369s] creating /home/mustache/ros2_ws/build/project/build/lib/project
+[5.375s] copying project/test.py -> /home/mustache/ros2_ws/build/project/build/lib/project
+[5.376s] copying project/__init__.py -> /home/mustache/ros2_ws/build/project/build/lib/project
+[5.377s] running install
+[5.377s] running install_lib
+[5.379s] creating /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project
+[5.380s] copying /home/mustache/ros2_ws/build/project/build/lib/project/test.py -> /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project
+[5.381s] copying /home/mustache/ros2_ws/build/project/build/lib/project/__init__.py -> /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project
+[5.382s] byte-compiling /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project/test.py to test.cpython-310.pyc
+[5.383s] byte-compiling /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project/__init__.py to __init__.cpython-310.pyc
+[5.384s] running install_data
+[5.385s] creating /home/mustache/ros2_ws/install/project/share
+[5.386s] creating /home/mustache/ros2_ws/install/project/share/ament_index
+[5.386s] creating /home/mustache/ros2_ws/install/project/share/ament_index/resource_index
+[5.387s] creating /home/mustache/ros2_ws/install/project/share/ament_index/resource_index/packages
+[5.388s] copying resource/project -> /home/mustache/ros2_ws/install/project/share/ament_index/resource_index/packages
+[5.388s] creating /home/mustache/ros2_ws/install/project/share/project
+[5.389s] copying package.xml -> /home/mustache/ros2_ws/install/project/share/project
+[5.389s] running install_egg_info
+[5.398s] Copying ../../build/project/project.egg-info to /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info
+[5.411s] running install_scripts
+[5.548s] Installing test script to /home/mustache/ros2_ws/install/project/lib/project
+[5.553s] writing list of installed files to '/home/mustache/ros2_ws/build/project/install.log'
+[5.657s] Invoked command in '/home/mustache/ros2_ws/src/project' returned '0': PYTHONPATH=/home/mustache/ros2_ws/build/project/prefix_override:/home/mustache/ros2_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/mustache/ros2_ws/build/project/build install --record /home/mustache/ros2_ws/build/project/install.log --single-version-externally-managed install_data

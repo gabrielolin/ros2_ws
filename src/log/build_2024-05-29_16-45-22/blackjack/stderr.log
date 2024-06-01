@@ -1,0 +1,5 @@
+  File "/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py", line 75
+    def check_for_player()
+                          ^
+SyntaxError: expected ':'
+

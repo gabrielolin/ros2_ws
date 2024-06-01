@@ -1,0 +1,34 @@
+[2.228s] Invoking command in '/home/mustache/ros2_ws/src/blackjack': PYTHONPATH=/home/mustache/ros2_ws/src/build/blackjack/prefix_override:/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/blackjack build --build-base /home/mustache/ros2_ws/src/build/blackjack/build install --record /home/mustache/ros2_ws/src/build/blackjack/install.log --single-version-externally-managed install_data
+[3.074s] running egg_info
+[3.077s] writing ../build/blackjack/blackjack.egg-info/PKG-INFO
+[3.077s] writing dependency_links to ../build/blackjack/blackjack.egg-info/dependency_links.txt
+[3.078s] writing entry points to ../build/blackjack/blackjack.egg-info/entry_points.txt
+[3.079s] writing requirements to ../build/blackjack/blackjack.egg-info/requires.txt
+[3.080s] writing top-level names to ../build/blackjack/blackjack.egg-info/top_level.txt
+[3.088s] reading manifest file '../build/blackjack/blackjack.egg-info/SOURCES.txt'
+[3.092s] writing manifest file '../build/blackjack/blackjack.egg-info/SOURCES.txt'
+[3.093s] running build
+[3.093s] running build_py
+[3.097s] running install
+[3.098s] running install_lib
+[3.104s] byte-compiling /home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py to motor_control.cpython-310.pyc
+[3.107s]   File "/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py", line 53
+[3.107s]     if location >= current_location AND (location-current_location) < 100:
+[3.108s]                                     ^^^
+[3.108s] SyntaxError: invalid syntax
+[3.108s] 
+[3.109s] byte-compiling /home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/I2C_LCD_driver.py to I2C_LCD_driver.cpython-310.pyc
+[3.122s]   File "/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/I2C_LCD_driver.py", line 499
+[3.122s]     self.lcd_write_char(line)l char positioning
+[3.122s]                              ^
+[3.123s] SyntaxError: invalid syntax
+[3.123s] 
+[3.123s] running install_data
+[3.124s] running install_egg_info
+[3.129s] removing '/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info' (and everything under it)
+[3.131s] Copying ../build/blackjack/blackjack.egg-info to /home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info
+[3.136s] running install_scripts
+[3.214s] Installing listener script to /home/mustache/ros2_ws/src/install/blackjack/lib/blackjack
+[3.215s] Installing talker script to /home/mustache/ros2_ws/src/install/blackjack/lib/blackjack
+[3.218s] writing list of installed files to '/home/mustache/ros2_ws/src/build/blackjack/install.log'
+[3.339s] Invoked command in '/home/mustache/ros2_ws/src/blackjack' returned '0': PYTHONPATH=/home/mustache/ros2_ws/src/build/blackjack/prefix_override:/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/blackjack build --build-base /home/mustache/ros2_ws/src/build/blackjack/build install --record /home/mustache/ros2_ws/src/build/blackjack/install.log --single-version-externally-managed install_data

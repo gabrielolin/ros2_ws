@@ -1,0 +1,10 @@
+  File "/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py", line 25
+    count++
+           ^
+SyntaxError: invalid syntax
+
+  File "/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack/app_multithread.py", line 244
+    count++;
+           ^
+SyntaxError: invalid syntax
+

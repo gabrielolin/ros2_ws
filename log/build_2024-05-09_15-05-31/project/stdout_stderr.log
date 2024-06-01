@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/project/project.egg-info
+writing ../../build/project/project.egg-info/PKG-INFO
+writing dependency_links to ../../build/project/project.egg-info/dependency_links.txt
+writing entry points to ../../build/project/project.egg-info/entry_points.txt
+writing requirements to ../../build/project/project.egg-info/requires.txt
+writing top-level names to ../../build/project/project.egg-info/top_level.txt
+writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+reading manifest file '../../build/project/project.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mustache/ros2_ws/build/project/build
+creating /home/mustache/ros2_ws/build/project/build/lib
+creating /home/mustache/ros2_ws/build/project/build/lib/project
+copying project/test.py -> /home/mustache/ros2_ws/build/project/build/lib/project
+copying project/__init__.py -> /home/mustache/ros2_ws/build/project/build/lib/project
+running install
+running install_lib
+creating /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project
+copying /home/mustache/ros2_ws/build/project/build/lib/project/test.py -> /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project
+copying /home/mustache/ros2_ws/build/project/build/lib/project/__init__.py -> /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project
+byte-compiling /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project/test.py to test.cpython-310.pyc
+byte-compiling /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mustache/ros2_ws/install/project/share
+creating /home/mustache/ros2_ws/install/project/share/ament_index
+creating /home/mustache/ros2_ws/install/project/share/ament_index/resource_index
+creating /home/mustache/ros2_ws/install/project/share/ament_index/resource_index/packages
+copying resource/project -> /home/mustache/ros2_ws/install/project/share/ament_index/resource_index/packages
+creating /home/mustache/ros2_ws/install/project/share/project
+copying package.xml -> /home/mustache/ros2_ws/install/project/share/project
+running install_egg_info
+Copying ../../build/project/project.egg-info to /home/mustache/ros2_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test script to /home/mustache/ros2_ws/install/project/lib/project
+writing list of installed files to '/home/mustache/ros2_ws/build/project/install.log'

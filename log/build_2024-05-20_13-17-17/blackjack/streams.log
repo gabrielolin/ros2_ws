@@ -1,0 +1,25 @@
+[2.779s] Invoking command in '/home/mustache/ros2_ws/src/blackjack': PYTHONPATH=/home/mustache/ros2_ws/build/blackjack/prefix_override:/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/blackjack build --build-base /home/mustache/ros2_ws/build/blackjack/build install --record /home/mustache/ros2_ws/build/blackjack/install.log --single-version-externally-managed install_data
+[3.931s] running egg_info
+[3.933s] writing ../../build/blackjack/blackjack.egg-info/PKG-INFO
+[3.934s] writing dependency_links to ../../build/blackjack/blackjack.egg-info/dependency_links.txt
+[3.935s] writing entry points to ../../build/blackjack/blackjack.egg-info/entry_points.txt
+[3.936s] writing requirements to ../../build/blackjack/blackjack.egg-info/requires.txt
+[3.937s] writing top-level names to ../../build/blackjack/blackjack.egg-info/top_level.txt
+[3.945s] reading manifest file '../../build/blackjack/blackjack.egg-info/SOURCES.txt'
+[3.949s] writing manifest file '../../build/blackjack/blackjack.egg-info/SOURCES.txt'
+[3.950s] running build
+[3.950s] running build_py
+[3.951s] copying blackjack/app_multithread.py -> /home/mustache/ros2_ws/build/blackjack/build/lib/blackjack
+[3.955s] running install
+[3.956s] running install_lib
+[3.961s] copying /home/mustache/ros2_ws/build/blackjack/build/lib/blackjack/app_multithread.py -> /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack
+[3.967s] byte-compiling /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack/app_multithread.py to app_multithread.cpython-310.pyc
+[3.986s] running install_data
+[3.986s] running install_egg_info
+[3.993s] removing '/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info' (and everything under it)
+[3.994s] Copying ../../build/blackjack/blackjack.egg-info to /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info
+[3.999s] running install_scripts
+[4.073s] Installing listener script to /home/mustache/ros2_ws/install/blackjack/lib/blackjack
+[4.074s] Installing talker script to /home/mustache/ros2_ws/install/blackjack/lib/blackjack
+[4.076s] writing list of installed files to '/home/mustache/ros2_ws/build/blackjack/install.log'
+[4.188s] Invoked command in '/home/mustache/ros2_ws/src/blackjack' returned '0': PYTHONPATH=/home/mustache/ros2_ws/build/blackjack/prefix_override:/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/blackjack build --build-base /home/mustache/ros2_ws/build/blackjack/build install --record /home/mustache/ros2_ws/build/blackjack/install.log --single-version-externally-managed install_data

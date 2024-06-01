@@ -1,0 +1,10 @@
+  File "/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py", line 53
+    if location >= current_location AND (location-current_location) < 100:
+                                    ^^^
+SyntaxError: invalid syntax
+
+  File "/home/mustache/ros2_ws/src/install/blackjack/lib/python3.10/site-packages/blackjack/I2C_LCD_driver.py", line 466
+    self.lcd_write_char(line) char positioning
+                              ^^^^
+SyntaxError: invalid syntax
+

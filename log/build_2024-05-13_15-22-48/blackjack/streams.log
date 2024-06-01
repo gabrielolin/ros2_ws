@@ -1,0 +1,33 @@
+[2.977s] Invoking command in '/home/mustache/ros2_ws/src/blackjack': PYTHONPATH=/home/mustache/ros2_ws/build/blackjack/prefix_override:/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/blackjack build --build-base /home/mustache/ros2_ws/build/blackjack/build install --record /home/mustache/ros2_ws/build/blackjack/install.log --single-version-externally-managed install_data
+[4.197s] running egg_info
+[4.200s] writing ../../build/blackjack/blackjack.egg-info/PKG-INFO
+[4.201s] writing dependency_links to ../../build/blackjack/blackjack.egg-info/dependency_links.txt
+[4.202s] writing entry points to ../../build/blackjack/blackjack.egg-info/entry_points.txt
+[4.203s] writing requirements to ../../build/blackjack/blackjack.egg-info/requires.txt
+[4.204s] writing top-level names to ../../build/blackjack/blackjack.egg-info/top_level.txt
+[4.214s] reading manifest file '../../build/blackjack/blackjack.egg-info/SOURCES.txt'
+[4.218s] writing manifest file '../../build/blackjack/blackjack.egg-info/SOURCES.txt'
+[4.218s] running build
+[4.219s] running build_py
+[4.219s] copying blackjack/app_multithread.py -> /home/mustache/ros2_ws/build/blackjack/build/lib/blackjack
+[4.223s] creating /home/mustache/ros2_ws/build/blackjack/build/lib/point_history_classifier
+[4.224s] copying point_history_classifier/point_history_classifier.py -> /home/mustache/ros2_ws/build/blackjack/build/lib/point_history_classifier
+[4.225s] copying point_history_classifier/__init__.py -> /home/mustache/ros2_ws/build/blackjack/build/lib/point_history_classifier
+[4.227s] running install
+[4.228s] running install_lib
+[4.234s] copying /home/mustache/ros2_ws/build/blackjack/build/lib/blackjack/app_multithread.py -> /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack
+[4.237s] creating /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/point_history_classifier
+[4.238s] copying /home/mustache/ros2_ws/build/blackjack/build/lib/point_history_classifier/point_history_classifier.py -> /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/point_history_classifier
+[4.238s] copying /home/mustache/ros2_ws/build/blackjack/build/lib/point_history_classifier/__init__.py -> /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/point_history_classifier
+[4.242s] byte-compiling /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack/app_multithread.py to app_multithread.cpython-310.pyc
+[4.262s] byte-compiling /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/point_history_classifier/point_history_classifier.py to point_history_classifier.cpython-310.pyc
+[4.265s] byte-compiling /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/point_history_classifier/__init__.py to __init__.cpython-310.pyc
+[4.266s] running install_data
+[4.267s] running install_egg_info
+[4.273s] removing '/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info' (and everything under it)
+[4.275s] Copying ../../build/blackjack/blackjack.egg-info to /home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info
+[4.281s] running install_scripts
+[4.360s] Installing listener script to /home/mustache/ros2_ws/install/blackjack/lib/blackjack
+[4.361s] Installing talker script to /home/mustache/ros2_ws/install/blackjack/lib/blackjack
+[4.363s] writing list of installed files to '/home/mustache/ros2_ws/build/blackjack/install.log'
+[4.487s] Invoked command in '/home/mustache/ros2_ws/src/blackjack' returned '0': PYTHONPATH=/home/mustache/ros2_ws/build/blackjack/prefix_override:/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/blackjack build --build-base /home/mustache/ros2_ws/build/blackjack/build install --record /home/mustache/ros2_ws/build/blackjack/install.log --single-version-externally-managed install_data

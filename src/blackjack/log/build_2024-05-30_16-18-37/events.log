@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.002006] (blackjack) JobQueued: {'identifier': 'blackjack', 'dependencies': OrderedDict()}
+[0.002172] (blackjack) JobStarted: {'identifier': 'blackjack'}
+[0.099032] (-) TimerEvent: {}
+[0.200735] (-) TimerEvent: {}
+[0.301828] (-) TimerEvent: {}
+[0.402984] (-) TimerEvent: {}
+[0.503887] (-) TimerEvent: {}
+[0.605057] (-) TimerEvent: {}
+[0.706179] (-) TimerEvent: {}
+[0.811462] (-) TimerEvent: {}
+[0.912564] (-) TimerEvent: {}
+[1.013724] (-) TimerEvent: {}
+[1.114551] (-) TimerEvent: {}
+[1.215350] (-) TimerEvent: {}
+[1.316307] (-) TimerEvent: {}
+[1.417116] (-) TimerEvent: {}
+[1.518381] (-) TimerEvent: {}
+[1.619749] (-) TimerEvent: {}
+[1.720521] (-) TimerEvent: {}
+[1.821341] (-) TimerEvent: {}
+[1.922256] (-) TimerEvent: {}
+[2.023497] (-) TimerEvent: {}
+[2.124817] (-) TimerEvent: {}
+[2.225568] (-) TimerEvent: {}
+[2.326363] (-) TimerEvent: {}
+[2.427106] (-) TimerEvent: {}
+[2.527761] (-) TimerEvent: {}
+[2.628605] (-) TimerEvent: {}
+[2.729642] (-) TimerEvent: {}
+[2.830602] (-) TimerEvent: {}
+[2.931273] (-) TimerEvent: {}
+[3.032051] (-) TimerEvent: {}
+[3.132906] (-) TimerEvent: {}
+[3.233730] (-) TimerEvent: {}
+[3.334622] (-) TimerEvent: {}
+[3.435302] (-) TimerEvent: {}
+[3.536040] (-) TimerEvent: {}
+[3.636739] (-) TimerEvent: {}
+[3.737461] (-) TimerEvent: {}
+[3.838614] (-) TimerEvent: {}
+[3.939324] (-) TimerEvent: {}
+[4.040420] (-) TimerEvent: {}
+[4.141415] (-) TimerEvent: {}
+[4.238451] (blackjack) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/blackjack', 'build', '--build-base', '/home/mustache/ros2_ws/src/blackjack/build/blackjack/build', 'install', '--record', '/home/mustache/ros2_ws/src/blackjack/build/blackjack/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mustache/ros2_ws/src/blackjack', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mustache', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mustache/ros2_ws/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mustache', 'OLDPWD': '/home/mustache/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1257', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mustache/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mustache', 'DESKTOP_AUTOSTART_ID': '10e1b31aac5428c381171710964635285400000012570016', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mustache', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mustache/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mustache-desktop:@/tmp/.ICE-unix/1257,unix/mustache-desktop:/tmp/.ICE-unix/1257', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5895b3cd_ad9d_469b_a1e3_3437a57602d0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P54QO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.85', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mustache/ros2_ws/install/turtlesim:/home/mustache/ros2_ws/install/py_pubsub:/home/mustache/ros2_ws/install/blackjack:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mustache/ros2_ws/src/blackjack/build/blackjack', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mustache/ros2_ws/src/blackjack/build/blackjack/prefix_override:/home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages:/home/mustache/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/mustache/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/mustache/ros2_ws/install/project/lib/python3.10/site-packages:/home/mustache/ros2_ws/install/blackjack/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mustache/ros2_ws/install/turtlesim'}, 'shell': False}
+[4.243729] (-) TimerEvent: {}
+[4.344846] (-) TimerEvent: {}
+[4.445900] (-) TimerEvent: {}
+[4.546542] (-) TimerEvent: {}
+[4.647307] (-) TimerEvent: {}
+[4.748064] (-) TimerEvent: {}
+[4.848788] (-) TimerEvent: {}
+[4.949495] (-) TimerEvent: {}
+[5.050155] (-) TimerEvent: {}
+[5.150855] (-) TimerEvent: {}
+[5.251531] (-) TimerEvent: {}
+[5.352221] (-) TimerEvent: {}
+[5.452917] (-) TimerEvent: {}
+[5.553715] (-) TimerEvent: {}
+[5.654851] (-) TimerEvent: {}
+[5.755490] (-) TimerEvent: {}
+[5.856256] (-) TimerEvent: {}
+[5.864768] (blackjack) StdoutLine: {'line': b'running egg_info\n'}
+[5.868156] (blackjack) StdoutLine: {'line': b'writing build/blackjack/blackjack.egg-info/PKG-INFO\n'}
+[5.869422] (blackjack) StdoutLine: {'line': b'writing dependency_links to build/blackjack/blackjack.egg-info/dependency_links.txt\n'}
+[5.870776] (blackjack) StdoutLine: {'line': b'writing entry points to build/blackjack/blackjack.egg-info/entry_points.txt\n'}
+[5.872000] (blackjack) StdoutLine: {'line': b'writing requirements to build/blackjack/blackjack.egg-info/requires.txt\n'}
+[5.872846] (blackjack) StdoutLine: {'line': b'writing top-level names to build/blackjack/blackjack.egg-info/top_level.txt\n'}
+[5.893698] (blackjack) StdoutLine: {'line': b"reading manifest file 'build/blackjack/blackjack.egg-info/SOURCES.txt'\n"}
+[5.894789] (blackjack) StdoutLine: {'line': b"writing manifest file 'build/blackjack/blackjack.egg-info/SOURCES.txt'\n"}
+[5.895543] (blackjack) StdoutLine: {'line': b'running build\n'}
+[5.896718] (blackjack) StdoutLine: {'line': b'running build_py\n'}
+[5.897767] (blackjack) StdoutLine: {'line': b'copying blackjack/motor_control.py -> /home/mustache/ros2_ws/src/blackjack/build/blackjack/build/lib/blackjack\n'}
+[5.903253] (blackjack) StdoutLine: {'line': b'running install\n'}
+[5.905670] (blackjack) StdoutLine: {'line': b'running install_lib\n'}
+[5.911520] (blackjack) StdoutLine: {'line': b'copying /home/mustache/ros2_ws/src/blackjack/build/blackjack/build/lib/blackjack/motor_control.py -> /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack\n'}
+[5.918364] (blackjack) StdoutLine: {'line': b'byte-compiling /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack/motor_control.py to motor_control.cpython-310.pyc\n'}
+[5.923578] (blackjack) StdoutLine: {'line': b'running install_data\n'}
+[5.924719] (blackjack) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.932903] (blackjack) StdoutLine: {'line': b"removing '/home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.934838] (blackjack) StdoutLine: {'line': b'Copying build/blackjack/blackjack.egg-info to /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/python3.10/site-packages/blackjack-0.0.0-py3.10.egg-info\n'}
+[5.941100] (blackjack) StdoutLine: {'line': b'running install_scripts\n'}
+[5.956428] (-) TimerEvent: {}
+[6.033921] (blackjack) StdoutLine: {'line': b'Installing listener script to /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/blackjack\n'}
+[6.035696] (blackjack) StdoutLine: {'line': b'Installing talker script to /home/mustache/ros2_ws/src/blackjack/install/blackjack/lib/blackjack\n'}
+[6.038430] (blackjack) StdoutLine: {'line': b"writing list of installed files to '/home/mustache/ros2_ws/src/blackjack/build/blackjack/install.log'\n"}
+[6.056701] (-) TimerEvent: {}
+[6.158020] (-) TimerEvent: {}
+[6.198064] (blackjack) CommandEnded: {'returncode': 0}
+[6.250573] (blackjack) JobEnded: {'identifier': 'blackjack', 'rc': 0}
+[6.254327] (-) EventReactorShutdown: {}
